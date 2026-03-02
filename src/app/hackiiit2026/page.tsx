@@ -289,7 +289,9 @@ export default function HackIIIT() {
 
         .glow-letter:hover {
           color: #ffd1fdff;
-          text-shadow: 0 0 10px var(--pink), 0 0 20px var(--peach);
+          text-shadow:
+            0 0 10px var(--pink),
+            0 0 20px var(--peach);
         }
 
         .btn-cta {
@@ -727,7 +729,11 @@ export default function HackIIIT() {
         .winner-image-placeholder {
           width: 100%;
           height: 500px;
-          background: linear-gradient(135deg, rgba(100, 13, 95, 0.3), rgba(234, 34, 100, 0.2));
+          background: linear-gradient(
+            135deg,
+            rgba(100, 13, 95, 0.3),
+            rgba(234, 34, 100, 0.2)
+          );
           display: flex;
           align-items: center;
           justify-content: center;
@@ -1341,15 +1347,17 @@ export default function HackIIIT() {
           </p>
           <button
             className="btn-cta"
-            onClick={() => window.location.href = "https://gist.github.com/Gopalkataria/926edc4320cbd137e65fa5e284c3a260"}
+            onClick={() =>
+              (window.location.href =
+                "https://gist.github.com/bropal404/926edc4320cbd137e65fa5e284c3a260")
+            }
           >
             Have a look at all submissions here
           </button>
         </div>
       </section>
 
-
-      {/* 
+      {/*
       <section className="section compact" id="memories">
         <div className="container">
           <h2
@@ -1378,7 +1386,7 @@ export default function HackIIIT() {
             </div>
           </div>
         </div>
-      </section> 
+      </section>
         */}
 
       {/* Winners Section */}
@@ -1401,7 +1409,12 @@ export default function HackIIIT() {
           {/* 1st Place Winner */}
           <div className="winner-card first reveal hover-target">
             <div className="winner-image-placeholder">
-              <Image src="/hackiiit/1st.png" alt="1st Place" width={350} height={220} />
+              <Image
+                src="/hackiiit/1st.png"
+                alt="1st Place"
+                width={350}
+                height={220}
+              />
             </div>
             <div className="winner-content">
               <div className="winner-header">
@@ -1413,10 +1426,16 @@ export default function HackIIIT() {
               </div>
               <h3 className="winner-team-name">Nuxe Nalc</h3>
               <p className="winner-description">
-                Created a system to convert institute policy into a formal system, where users query if actions are allowed; an SMT solver verifies statements with the rules in the policy, with a proof/disproof of your "theorem" (action) using the "axioms" (policies). It can also find mathematically proven loopholes/contradictions in policies.
+                Created a system to convert institute policy into a formal
+                system, where users query if actions are allowed; an SMT solver
+                verifies statements with the rules in the policy, with a
+                proof/disproof of your "theorem" (action) using the "axioms"
+                (policies). It can also find mathematically proven
+                loopholes/contradictions in policies.
               </p>
               <p className="winner-tech">
-                Vishesh Saraswat, Tejas Agarwal, Pratyush Vempati, Anirudh Vempati
+                Vishesh Saraswat, Tejas Agarwal, Pratyush Vempati, Anirudh
+                Vempati
               </p>
             </div>
           </div>
@@ -1424,7 +1443,12 @@ export default function HackIIIT() {
           {/* 2nd Place Winner */}
           <div className="winner-card reveal hover-target">
             <div className="winner-image-placeholder">
-              <Image src="/hackiiit/2nd.png" alt="2nd Place" width={350} height={220} />
+              <Image
+                src="/hackiiit/2nd.png"
+                alt="2nd Place"
+                width={350}
+                height={220}
+              />
             </div>
             <div className="winner-content">
               <div className="winner-header">
@@ -1436,7 +1460,12 @@ export default function HackIIIT() {
               </div>
               <h3 className="winner-team-name">Gommies</h3>
               <p className="winner-description">
-                ResearchWeb is a unified platform enhancing student, professor and research centre collaboration through a version-controlled website editor, a project connection board, and ML-powered semantic research matching. It simplifies content updates, improves project discovery, and intelligently connects students with relevant labs, faculty, and publications.
+                ResearchWeb is a unified platform enhancing student, professor
+                and research centre collaboration through a version-controlled
+                website editor, a project connection board, and ML-powered
+                semantic research matching. It simplifies content updates,
+                improves project discovery, and intelligently connects students
+                with relevant labs, faculty, and publications.
               </p>
               <p className="winner-tech">
                 Dhruva Anand, Teja Pudie, Ayaansh Solanki, Jonathan Robin
@@ -1447,7 +1476,12 @@ export default function HackIIIT() {
           {/* 3rd Place Winner */}
           <div className="winner-card reveal hover-target">
             <div className="winner-image-placeholder">
-              <Image src="/hackiiit/3rd.png" alt="3rd Place" width={350} height={220} />
+              <Image
+                src="/hackiiit/3rd.png"
+                alt="3rd Place"
+                width={350}
+                height={220}
+              />
             </div>
             <div className="winner-content">
               <div className="winner-header">
@@ -1459,7 +1493,13 @@ export default function HackIIIT() {
               </div>
               <h3 className="winner-team-name">Another Useless Group</h3>
               <p className="winner-description">
-                Hadron - "Where Ideas Collide" An AI-powered social hub that turns dense papers into snackable slide-stories, conversational podcasts and crisp reels (aka brainrot for the fast-paced crowd). FastAPI backend, React frontend, open models-driven summaries, TTS podcasts, vibrant lab communities with threads and open discussions so that students read, listen, learn, connect and innovate across domains.
+                Hadron - "Where Ideas Collide" An AI-powered social hub that
+                turns dense papers into snackable slide-stories, conversational
+                podcasts and crisp reels (aka brainrot for the fast-paced
+                crowd). FastAPI backend, React frontend, open models-driven
+                summaries, TTS podcasts, vibrant lab communities with threads
+                and open discussions so that students read, listen, learn,
+                connect and innovate across domains.
               </p>
               <p className="winner-tech">
                 Inesh Dheer, Shreyas Mehta, Aviral Gupta, Mohit Singh.
@@ -1487,12 +1527,16 @@ export default function HackIIIT() {
               <div className="award-content">
                 <div className="award-header">
                   <div className="award-icon">🎨</div>
-
                 </div>
                 <div className="award-amount">₹5,000</div>
                 <div className="award-title">Team ACE - MOST_CREATIVE</div>
                 <div className="award-desc">
-                  NoGradeDrop Never miss a biometric again.NoGradeDrop is a community-driven, AI-powered attendance notification ecosystem designed to save your grades and your sleep. We combine computer vision, crowdsourcing, and aggressive alarm systems to ensure that when the biometric machine enters the class, you are the first to know.
+                  NoGradeDrop Never miss a biometric again.NoGradeDrop is a
+                  community-driven, AI-powered attendance notification ecosystem
+                  designed to save your grades and your sleep. We combine
+                  computer vision, crowdsourcing, and aggressive alarm systems
+                  to ensure that when the biometric machine enters the class,
+                  you are the first to know.
                 </div>
               </div>
             </div>
@@ -1500,12 +1544,16 @@ export default function HackIIIT() {
               <div className="award-content">
                 <div className="award-header">
                   <div className="award-icon">✨</div>
-
                 </div>
                 <div className="award-amount">₹5,000</div>
                 <div className="award-title">odomos - BEST_UI/UX</div>
                 <div className="award-desc">
-                  UniGraph unifies your university experience. Use the Playground to explore a stunning, interactive graph connecting courses, topics, and resources. Switch to the Bureaucrat for instant, accurate answers on any campus policyâ€”from hostels to academicsâ€”featuring an intelligent agent that auto-drafts official emails to the exact relevant authority.
+                  UniGraph unifies your university experience. Use the
+                  Playground to explore a stunning, interactive graph connecting
+                  courses, topics, and resources. Switch to the Bureaucrat for
+                  instant, accurate answers on any campus policyâ€”from hostels
+                  to academicsâ€”featuring an intelligent agent that auto-drafts
+                  official emails to the exact relevant authority.
                 </div>
               </div>
             </div>
@@ -1513,12 +1561,17 @@ export default function HackIIIT() {
               <div className="award-content">
                 <div className="award-header">
                   <div className="award-icon">🎁</div>
-
                 </div>
                 <div className="award-amount">₹5,000</div>
                 <div className="award-title">MEGALODON - MOST_IMPACTFUL</div>
                 <div className="award-desc">
-                  SmartMess is an intelligent mess management system for IIIT Hyderabad that reduces overcrowding through real-time crowd monitoring. It features a meal marketplace and data-driven analytics, helping users choose optimal messes and meal times while improving overall mess efficiency and transparency. By enabling meal redistribution and better demand prediction, it also helps reduce food wastage in messes.
+                  SmartMess is an intelligent mess management system for IIIT
+                  Hyderabad that reduces overcrowding through real-time crowd
+                  monitoring. It features a meal marketplace and data-driven
+                  analytics, helping users choose optimal messes and meal times
+                  while improving overall mess efficiency and transparency. By
+                  enabling meal redistribution and better demand prediction, it
+                  also helps reduce food wastage in messes.
                 </div>
               </div>
             </div>
@@ -1540,16 +1593,21 @@ export default function HackIIIT() {
           </h3>
 
           <div className="awards-grid reveal">
-
             <div className="award-item hover-target">
               <div className="award-content">
                 <div className="award-header">
                   <div className="award-icon">🎁</div>
-
                 </div>
-                <div className="award-title">Santas And Their Elves - BEST_HARDWARE</div>
+                <div className="award-title">
+                  Santas And Their Elves - BEST_HARDWARE
+                </div>
                 <div className="award-desc">
-                  Campus canteens have unpredictable availability and long wait times. Students waste trips and time. Our MVP combines a physical ON/OFF switch for real-time canteen status with app-based pre-ordering. Orders are accepted only when open, prepared in advance, and picked up instantly, reducing confusion, waiting, and crowding
+                  Campus canteens have unpredictable availability and long wait
+                  times. Students waste trips and time. Our MVP combines a
+                  physical ON/OFF switch for real-time canteen status with
+                  app-based pre-ordering. Orders are accepted only when open,
+                  prepared in advance, and picked up instantly, reducing
+                  confusion, waiting, and crowding
                 </div>
               </div>
             </div>
@@ -1572,21 +1630,28 @@ export default function HackIIIT() {
 
           <div className="mentor-grid reveal">
             <div className="mentor-card hover-target">
-              <Image src="/hackiiit/advait.jpg" alt="Advait Dintakurti" width={150} height={150} className="mentor-image" />
+              <Image
+                src="/hackiiit/advait.jpg"
+                alt="Advait Dintakurti"
+                width={150}
+                height={150}
+                className="mentor-image"
+              />
               <div className="mentor-name">Advait Dintakurti</div>
-
             </div>
             <div className="mentor-card hover-target">
-              <Image src="/hackiiit/kaushik.jpg" alt="Kaushik Yadla" width={150} height={150} className="mentor-image" />
+              <Image
+                src="/hackiiit/kaushik.jpg"
+                alt="Kaushik Yadla"
+                width={150}
+                height={150}
+                className="mentor-image"
+              />
               <div className="mentor-name">Kaushik Yadla</div>
-
             </div>
           </div>
         </div>
       </section>
-
-
-
 
       {/* Jane Street Spotlight */}
       <section className="section compact">
@@ -1695,7 +1760,6 @@ export default function HackIIIT() {
         </div>
       </footer>
 
-
       {/* Scroll to Top Button */}
       <button
         id="scroll-top"
@@ -1705,8 +1769,6 @@ export default function HackIIIT() {
       >
         ↑
       </button>
-
-
     </>
   );
 }
