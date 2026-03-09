@@ -450,7 +450,8 @@ export default function ChatModal({ isOpen, onClose, mode = "general", vpnContex
   if (!isOpen) return null;
 
   // Show auth required screen for general mode if not logged in (except on localhost)
-  if (mode === "general" && !user && !allowAnonymousLocal) {
+  // Disabled temporarily to allow anyone to access Vetal for recruitments
+  if (false && mode === "general" && !user && !allowAnonymousLocal) {
     return (
       <>
         {/* Backdrop */}
